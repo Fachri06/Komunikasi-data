@@ -1,0 +1,76 @@
+Ada beberapa jenis topologi jaringan komputer, di antaranya:
+Topologi bus: Bentuknya seperti rangkaian linier yang menyerupai rel kereta api. Perangkat server berada di ujung jaringan, sedangkan client saling terhubung.
+Topologi ring: Bentuknya seperti cincin, di mana komputer server membagi datanya kepada dua client lainnya.
+Topologi star: Bentuknya seperti bintang, di mana server melayani client satu per satu.
+Topologi mesh: Gabungan dari topologi star dan ring, di mana server melayani client, namun setiap client terhubung satu sama lain.
+Topologi tree: Bentuknya seperti pohon, di mana server sebagai induk dan client-client menyebar di bawahnya.
+Topologi hybrid: Hubungan kompleks yang menghubungkan topologi satu dengan yang lainnya. 
+ 
+Topologi jaringan secara umum dapat dibedakan menjadi topologi fisik dan topologi logika. Topologi fisik menjelaskan susunan komponen jaringan, seperti label, komputer, dan lokasi. Sementara topologi logika menetapkan aliran data atau informasi dalam jaringan
+
+•Topologi bus memiliki beberapa kelebihan dan kekurangan, di antaranya: 
+ 
+Kelebihan 
+Mudah dipasang dan dioperasikan 
+Konfigurasi yang sederhana 
+Hemat biaya karena membutuhkan sedikit kabel dan peralatan  
+Efisien untuk jaringan skala kecil 
+Mudah menambah atau mengurangi perangkat 
+Fleksibel untuk perluasan atau konfigurasi ulang jaringan 
+
+Kekurangan 
+Sulit menemukan sumber masalah  
+Krusakan pada lokasi jaringan utama 
+Rentan terhadap tabrakan data  
+Masalah kinerja ketika jumlah perangkat meningkat 
+Gangguan pada satu komputer bisa menggangu jaringan di komputer lain 
+Sulit mendeteksi gangguan 
+Sering terjadinya antrian data  
+Jika jaraknya terlalu jauh harus menggunakan repeater
+
+•Salah satu kelebihan topologi ring
+adalah instalasinya mudah dan minim terjadi tabrakan data dalam proses pengiriman. Sementara itu, salah satu kelemahan topologi ring adalah kerusakan di satu titik bisa membuat titik lain mengalami kerusakan
+
+•Topologi star memiliki beberapa kelebihan dan kekurangan, di antaranya: 
+ 
+Kelebihan  
+Jaringan tetap berjalan meskipun salah satu komputer mengalami kerusakan  
+Mudah diinstalasi  
+Mudah diperluas  
+Mudah mendeteksi kesalahan jaringan 
+Performa jaringan tinggi karena tidak ada tabrakan data 
+Kekurangan  
+Sangat bergantung pada perangkat pusat 
+Jika perangkat pusat mengalami gangguan, seluruh node akan mengalami gangguan pula 
+Biaya yang dikeluarkan untuk membangun jaringan instalasi jenis ini tinggi karena membutuhkan banyak kabel 
+Performanya sangat bergantung pada spesifikasi hub dan switch 
+
+•Topologi mesh memiliki beberapa kelebihan dan kekurangan, di antaranya: 
+ 
+Kelebihan  
+Data dapat sampai ke komputer tujuan lebih cepat karena tidak melewati komputer lain.  
+Bandwidth limit cukup besar. 
+Keamanan data sangat baik dan dapat diatur sesuai kebutuhan pengguna. 
+Kekurangan  
+Biaya operasi lebih banyak karena membutuhkan banyak kabel untuk pemasangan.  
+Proses instalasi rumit dan hanya bisa dilakukan oleh tenaga ahli di bidang computer network
+
+•Topologi tree memiliki beberapa kelebihan dan kekurangan, di antaranya:
+Kelebihan
+Skalabilitas tinggi: Topologi tree mudah diperluas karena node tambahan bisa ditambahkan ke setiap cabang node.
+Tahan gangguan: Kerusakan pada satu node tidak memengaruhi kinerja node lain.
+Manajemen data baik: Topologi tree mudah dikembangkan dan mempermudah identifikasi kesalahan atau kerusakan jaringan.
+
+Kekurangan
+Keterbatasan titik: Topologi tree memiliki keterbatasan pada titik koneksi atau lalu lintas siaran.
+Gangguan jika node utama rusak: Jika node utama rusak, maka semua node akan mengalami gangguan.
+
+•Topologi hybrid memiliki beberapa kelebihan dan kekurangan, di antaranya: 
+ 
+Kelebihan  
+Fleksibel dan dapat disesuaikan dengan lingkungan pengguna  
+Kecepatan transfer data cenderung stabil  
+Pengembangannya mudah tanpa perlu mengubah topologi yang sudah ada
+Kekurangan 
+Topologi memerlukan biaya yang cukup mahal 
+Proses pengolahan yang cukup rumit
